@@ -84,6 +84,15 @@ After training each model, we evaluate on the test set using MAE, MSE, and RMSE 
 Model Saving and Output
 
 Finally, the trained models are saved for future use. The decision tree is serialized to a file using joblib.dump, and the ANN model is saved in Keras’s HDF5 format (.h5). This allows loading the trained models later for inference without retraining.
+## Model Output
+Here’s a sample prediction from the trained model:
+
+<p align="center">
+  <a href="https://raw.githubusercontent.com/venkateshmoodu/Youtube-adview-Prediction-ML-PROJECT-/refs/heads/main/Screenshot%202025-10-22%20123338.png">
+    <img src="https://raw.githubusercontent.com/venkateshmoodu/Youtube-adview-Prediction-ML-PROJECT-/refs/heads/main/Screenshot%202025-10-22%20123338.png" alt="Logo">
+  </a>
+
+</p>
 
 Overall, this README details the end-to-end process: data loading, cleaning, preprocessing (encoding and scaling), model training with several algorithms, evaluation, and model persistence. Each modeling approach is documented with references to the underlying methods and ensures reproducibility of the pipeline
 
